@@ -1,0 +1,24 @@
+//
+//  ios-prefetch.pch
+//  ios
+//
+//  Created by Kevin Musselman on 9/18/15.
+//  Copyright © 2015 The Training, Inc. All rights reserved.
+//
+
+#ifndef ios_prefetch_pch
+#define ios_prefetch_pch
+
+#import <Annex/Annex.h>
+#import <Masonry/Masonry.h>
+#import <Survey/Survey.h>
+#import <CoreData/CoreData.h>
+
+#import "UIViewController+ext.h"
+#import "UIRefreshControl+AFNetworking.h"
+#import "UIAlertView+AFNetworking.h"
+
+@import Foundation;
+@import UIKit;
+
+#endif /* ios_prefetch_pch */
